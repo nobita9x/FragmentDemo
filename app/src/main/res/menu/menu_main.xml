@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dta.fragmentdemo.MainActivity">
+
+    <item
+        android:id="@+id/action_cancel"
+        android:title="Cancel"
+        android:visible="false"
+        app:showAsAction="ifRoom|collapseActionView"></item>
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:visible="false"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/action_a"
+        android:title="A"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_b"
+        android:title="B"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_c"
+        android:title="C"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_d"
+        android:title="D"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_e"
+        android:title="E"
+        android:visible="false"
+        app:showAsAction="never" />
+</menu>
